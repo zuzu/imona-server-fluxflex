@@ -1,5 +1,5 @@
 [permission]
-public_html/data          777
+public_html/dat          777
 public_html/ad     777
 public_html/i     777
 public_html/plugins     777
