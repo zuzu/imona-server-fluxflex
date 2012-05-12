@@ -11,3 +11,4 @@ chmod 666 public_html/*.txt
 
 [setup]
 rm -rf public_html/data/*
+php public_html/brd_make.php

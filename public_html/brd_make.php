@@ -17,17 +17,16 @@ $brdflexnum[1] = 0;
 //カレントディレクトリ
 chdir(dirname(__FILE__));
 //#URLリスト(上から順に処理していきます)
-$url = array("http://imona.info/bbsmenu.html",
-"http://menu.70.kg/bbsmenu.html");
+$url = array("http://menu.70.kg/bbsmenu.html");
 //無視リスト
 $skip = array("特別企画","2chプロジェクト","2NN+","いろいろランク","チャット","運営案内","ツール類","STOP","2ch総合案内","2chの入り口","会議室","TOPページ");
 //許可アドレスリスト(正規表現使用)
-$addsitelist = array("2ch\.net","bbspink\.com","kakiko\.com","pf-x\.net","newsplus\.jp","livedoor\.jp","vip2ch\.com","2ch2\.net","3ch\.jp","[0-9]+?\.kg","k2y\.info","psychedance\.com","xrea\.com","machi\.to","zuzu\-service\.net","nicovideo\.jp","ktkr\.net","shiroro\.com");
+$addsitelist = array("2ch\.net","bbspink\.com","kakiko\.com");
 //停止位置
 $last = '<BR><BR><B>他のサイト</B><BR>';
-$brd4path = "/var/www/html/o/brd4.txt";
-$brd5path = "/var/www/html/o/brd5.txt";
-$brdflexpath = "/var/www/html/o/brdflex.txt";
+$brd4path = "./brd4.txt";
+$brd5path = "./brd5.txt";
+$brdflexpath = "./brdflex.txt";
 //結果を表示するかしないか(true,false)
 $output = true;
 ############################################################
